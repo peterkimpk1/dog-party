@@ -1,15 +1,171 @@
-@import 'variables';
+:root {
+  --main-accent-color: #3F8DA8;
+  --secondary-accent-color: #92E0E5;
+  --main-font: 'Raleway'
+}
 
 body {
-  background: url('../../dist/images/park.jpg') center/cover;
   height: 100vh;
   width: 100%;
+  margin: 0px;
 }
 
 nav {
+  display: inline;
   background-color: var(--secondary-accent-color);
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+  width: 15vw;
+  height: 50px;
+  .nav-link {
+    align-self: center;
+    font-family: var (--main-font);
+    color: white;
+    font-size: 20px;
+  }
 }
 
 .dog-icon {
-  width: 50px;
+  width: 40px;
+  position: relative;
+  transform: translate(30px)
+}
+
+.main-section {
+  width: 100vw;
+  height: 435px;
+  background: url('../../dist/images/park.jpg') no-repeat center/100%;
+  display: flex;
+  justify-content: center;
+}
+
+.main-dog-wrapper {
+  width: 328px;
+  height: 435px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  transform: translate(-20px);
+  .main-header {
+    font-size: 28px;
+    font-family: var(--main-font)
+  }
+}
+
+.dog-box{
+    width: 133px;
+    height: 32px;
+    border: 3px solid var(--main-accent-color) ;
+    background-color: white;
+    color: var(--main-accent-color) ;
+    font-family: var(--main-font);
+    text-align: center;
+    line-height: 1.5;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.dog-circle {
+  height: 265px;
+  width: 265px;
+  border: 3px solid var(--main-accent-color) ;
+  border-radius: 50%;
+  display: inline-block;
+  overflow: hidden;
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.how-what-facts-wrapper {
+  width: 100vw;
+  height: 485px;
+  display: flex;
+  justify-content:space-around;
+}
+
+.dog-circle-small {
+  height: 180px;
+  width: 180px;
+  border: 2px solid var(--main-accent-color) ;
+  border-radius: 50%;
+  display: inline-block;
+  overflow: hidden;
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.sub-header,
+.what-info,
+.how-info,
+.facts-info {
+  font-family: var(--main-font);
+}
+
+.what-info,
+.how-info,
+.facts-info {
+  font-size: 18px;
+}
+
+.how-wrapper,
+.what-wrapper,
+.facts-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-wrap: wrap;
+  margin: 10px;
+  text-align: center;
+  line-height: 1;
+}
+
+footer {
+  height: 180px;
+  width: 100vw;
+  background-color: var(--main-accent-color);
+  display: flex;
+  justify-content: center;
+  .footer-section {
+    display: flex;
+    width: 328px;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  h3.sub-header {
+    color: white;
+    font-size: 18px;
+    position: relative;
+    transform: translate(40px)
+  }
+  .svg-icons {
+    display: flex;
+    width: 500px;
+    height: 47px;
+    justify-content: space-evenly;
+    position: relative;
+    transform: translate(-100px)
+  }
+  .github-link {
+    color: white;
+    text-decoration:underline;
+    font-size: 22px;
+    position: relative;
+    transform: translate(60px)
+  }
 }
