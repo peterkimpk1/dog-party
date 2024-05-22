@@ -1,0 +1,30 @@
+nav {
+    display: inline;
+    background-color: var(--secondary-accent-color);
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dog-icon {
+    width: 40px;
+    position: relative;
+    transform: translate(30px)
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 15vw;
+    height: 50px;
+    .nav-link {
+        align-self: center;
+        font-family: var (--main-font);
+        color: white;
+        font-size: 20px;
+    }
+}
