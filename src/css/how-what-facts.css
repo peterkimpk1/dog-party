@@ -1,0 +1,44 @@
+.how-what-facts-wrapper {
+    width: 100vw;
+    height: 485px;
+    display: flex;
+    justify-content:space-around;
+}
+  
+.dog-circle-small {
+    height: 180px;
+    width: 180px;
+    border: 2px solid var(--main-accent-color) ;
+    border-radius: 50%;
+    display: inline-block;
+    overflow: hidden;
+    img {
+      height: 100%;
+      width: 100%;
+    }
+}
+
+.sub-header,
+.what-info,
+.how-info,
+.facts-info {
+    font-family: var(--main-font);
+}
+  
+.what-info,
+.how-info,
+.facts-info {
+    font-size: 18px;
+}
+  
+.how-wrapper,
+.what-wrapper,
+.facts-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-wrap: wrap;
+    margin: 10px;
+    text-align: center;
+    line-height: 1;
+}

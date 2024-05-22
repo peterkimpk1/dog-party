@@ -1,0 +1,35 @@
+footer {
+    height: 180px;
+    width: 100vw;
+    background-color: var(--main-accent-color);
+    display: flex;
+    justify-content: center;
+    .footer-section {
+      display: flex;
+      width: 328px;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    h3.sub-header {
+      color: white;
+      font-size: 18px;
+      position: relative;
+      transform: translate(40px)
+    }
+    .svg-icons {
+      display: flex;
+      width: 500px;
+      height: 47px;
+      justify-content: space-evenly;
+      position: relative;
+      transform: translate(-100px)
+    }
+    .github-link {
+      color: white;
+      text-decoration:underline;
+      font-size: 22px;
+      position: relative;
+      transform: translate(60px)
+    }
+}
+  
