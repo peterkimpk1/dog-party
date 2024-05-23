@@ -1,23 +1,26 @@
 .main-section {
     width: 100vw;
     height: 435px;
-    background: url('../../dist/images/park.jpg') no-repeat center/100%;
+    background: url('../../dist/images/park.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 160%;
     display: flex;
     justify-content: center;
 }
   
 .main-dog-wrapper {
     width: 328px;
-    height: 435px;
+    height: 420px;
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
     position: relative;
-    transform: translate(-20px);
+    transform: translate(-50px);
     .main-header {
       font-size: 28px;
-      font-family: var(--main-font)
+      font-family: var(--main-font);
+      margin-bottom: 0px;
     }
 }
   
