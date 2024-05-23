@@ -512,15 +512,15 @@ ___CSS_LOADER_EXPORT___.push([module.id, `nav {
     flex-direction: row;
     justify-content: space-evenly;
     text-align: center;
-    width: 15vw;
+    width: 10vw;
     height: 50px;
     .nav-link {
         align-self: center;
         font-family: var (--main-font);
         color: white;
-        font-size: 20px;
+        font-size: 22px;
     }
-}`, "",{"version":3,"sources":["webpack://./src/css/nav.css"],"names":[],"mappings":"AAAA;IACI,eAAe;IACf,+CAA+C;IAC/C,YAAY;IACZ,SAAS;IACT,UAAU;IACV,aAAa;IACb,8BAA8B;AAClC;;AAEA;IACI,WAAW;IACX,kBAAkB;IAClB;AACJ;;AAEA;IACI,aAAa;IACb,mBAAmB;IACnB,6BAA6B;IAC7B,kBAAkB;IAClB,WAAW;IACX,YAAY;IACZ;QACI,kBAAkB;QAClB,8BAA8B;QAC9B,YAAY;QACZ,eAAe;IACnB;AACJ","sourcesContent":["nav {\n    display: inline;\n    background-color: var(--secondary-accent-color);\n    width: 100vw;\n    margin: 0;\n    padding: 0;\n    display: flex;\n    justify-content: space-between;\n}\n\n.dog-icon {\n    width: 40px;\n    position: relative;\n    transform: translate(30px)\n}\n\n.nav-links {\n    display: flex;\n    flex-direction: row;\n    justify-content: space-evenly;\n    text-align: center;\n    width: 15vw;\n    height: 50px;\n    .nav-link {\n        align-self: center;\n        font-family: var (--main-font);\n        color: white;\n        font-size: 20px;\n    }\n}"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/css/nav.css"],"names":[],"mappings":"AAAA;IACI,eAAe;IACf,+CAA+C;IAC/C,YAAY;IACZ,SAAS;IACT,UAAU;IACV,aAAa;IACb,8BAA8B;AAClC;;AAEA;IACI,WAAW;IACX,kBAAkB;IAClB;AACJ;;AAEA;IACI,aAAa;IACb,mBAAmB;IACnB,6BAA6B;IAC7B,kBAAkB;IAClB,WAAW;IACX,YAAY;IACZ;QACI,kBAAkB;QAClB,8BAA8B;QAC9B,YAAY;QACZ,eAAe;IACnB;AACJ","sourcesContent":["nav {\n    display: inline;\n    background-color: var(--secondary-accent-color);\n    width: 100vw;\n    margin: 0;\n    padding: 0;\n    display: flex;\n    justify-content: space-between;\n}\n\n.dog-icon {\n    width: 40px;\n    position: relative;\n    transform: translate(30px)\n}\n\n.nav-links {\n    display: flex;\n    flex-direction: row;\n    justify-content: space-evenly;\n    text-align: center;\n    width: 10vw;\n    height: 50px;\n    .nav-link {\n        align-self: center;\n        font-family: var (--main-font);\n        color: white;\n        font-size: 22px;\n    }\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -550,23 +550,26 @@ var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_g
 ___CSS_LOADER_EXPORT___.push([module.id, `.main-section {
     width: 100vw;
     height: 435px;
-    background: url(${___CSS_LOADER_URL_REPLACEMENT_0___}) no-repeat center/100%;
+    background: url(${___CSS_LOADER_URL_REPLACEMENT_0___});
+    background-repeat: no-repeat;
+    background-size: 100% 160%;
     display: flex;
     justify-content: center;
 }
   
 .main-dog-wrapper {
     width: 328px;
-    height: 435px;
+    height: 420px;
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
     position: relative;
-    transform: translate(-20px);
+    transform: translate(-50px);
     .main-header {
       font-size: 28px;
-      font-family: var(--main-font)
+      font-family: var(--main-font);
+      margin-bottom: 0px;
     }
 }
   
@@ -595,7 +598,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.main-section {
       width: 100%;
     }
 }
-  `, "",{"version":3,"sources":["webpack://./src/css/main-section.css"],"names":[],"mappings":"AAAA;IACI,YAAY;IACZ,aAAa;IACb,yEAAmE;IACnE,aAAa;IACb,uBAAuB;AAC3B;;AAEA;IACI,YAAY;IACZ,aAAa;IACb,aAAa;IACb,6BAA6B;IAC7B,sBAAsB;IACtB,mBAAmB;IACnB,kBAAkB;IAClB,2BAA2B;IAC3B;MACE,eAAe;MACf;IACF;AACJ;;AAEA;MACM,YAAY;MACZ,YAAY;MACZ,2CAA2C;MAC3C,uBAAuB;MACvB,gCAAgC;MAChC,6BAA6B;MAC7B,kBAAkB;MAClB,gBAAgB;MAChB,eAAe;MACf,iBAAiB;AACvB;;AAEA;IACI,aAAa;IACb,YAAY;IACZ,2CAA2C;IAC3C,kBAAkB;IAClB,qBAAqB;IACrB,gBAAgB;IAChB;MACE,YAAY;MACZ,WAAW;IACb;AACJ","sourcesContent":[".main-section {\n    width: 100vw;\n    height: 435px;\n    background: url('../../dist/images/park.jpg') no-repeat center/100%;\n    display: flex;\n    justify-content: center;\n}\n  \n.main-dog-wrapper {\n    width: 328px;\n    height: 435px;\n    display: flex;\n    justify-content: space-evenly;\n    flex-direction: column;\n    align-items: center;\n    position: relative;\n    transform: translate(-20px);\n    .main-header {\n      font-size: 28px;\n      font-family: var(--main-font)\n    }\n}\n  \n.dog-box{\n      width: 133px;\n      height: 32px;\n      border: 3px solid var(--main-accent-color) ;\n      background-color: white;\n      color: var(--main-accent-color) ;\n      font-family: var(--main-font);\n      text-align: center;\n      line-height: 1.5;\n      font-size: 18px;\n      font-weight: bold;\n}\n  \n.dog-circle {\n    height: 265px;\n    width: 265px;\n    border: 3px solid var(--main-accent-color) ;\n    border-radius: 50%;\n    display: inline-block;\n    overflow: hidden;\n    img {\n      height: 100%;\n      width: 100%;\n    }\n}\n  "],"sourceRoot":""}]);
+  `, "",{"version":3,"sources":["webpack://./src/css/main-section.css"],"names":[],"mappings":"AAAA;IACI,YAAY;IACZ,aAAa;IACb,mDAA6C;IAC7C,4BAA4B;IAC5B,0BAA0B;IAC1B,aAAa;IACb,uBAAuB;AAC3B;;AAEA;IACI,YAAY;IACZ,aAAa;IACb,aAAa;IACb,6BAA6B;IAC7B,sBAAsB;IACtB,mBAAmB;IACnB,kBAAkB;IAClB,2BAA2B;IAC3B;MACE,eAAe;MACf,6BAA6B;MAC7B,kBAAkB;IACpB;AACJ;;AAEA;MACM,YAAY;MACZ,YAAY;MACZ,2CAA2C;MAC3C,uBAAuB;MACvB,gCAAgC;MAChC,6BAA6B;MAC7B,kBAAkB;MAClB,gBAAgB;MAChB,eAAe;MACf,iBAAiB;AACvB;;AAEA;IACI,aAAa;IACb,YAAY;IACZ,2CAA2C;IAC3C,kBAAkB;IAClB,qBAAqB;IACrB,gBAAgB;IAChB;MACE,YAAY;MACZ,WAAW;IACb;AACJ","sourcesContent":[".main-section {\n    width: 100vw;\n    height: 435px;\n    background: url('../../dist/images/park.jpg');\n    background-repeat: no-repeat;\n    background-size: 100% 160%;\n    display: flex;\n    justify-content: center;\n}\n  \n.main-dog-wrapper {\n    width: 328px;\n    height: 420px;\n    display: flex;\n    justify-content: space-evenly;\n    flex-direction: column;\n    align-items: center;\n    position: relative;\n    transform: translate(-50px);\n    .main-header {\n      font-size: 28px;\n      font-family: var(--main-font);\n      margin-bottom: 0px;\n    }\n}\n  \n.dog-box{\n      width: 133px;\n      height: 32px;\n      border: 3px solid var(--main-accent-color) ;\n      background-color: white;\n      color: var(--main-accent-color) ;\n      font-family: var(--main-font);\n      text-align: center;\n      line-height: 1.5;\n      font-size: 18px;\n      font-weight: bold;\n}\n  \n.dog-circle {\n    height: 265px;\n    width: 265px;\n    border: 3px solid var(--main-accent-color) ;\n    border-radius: 50%;\n    display: inline-block;\n    overflow: hidden;\n    img {\n      height: 100%;\n      width: 100%;\n    }\n}\n  "],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -684,7 +687,12 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.how-what-facts-wrapper {
 .what-info,
 .how-info,
 .facts-info {
+    display: -webkit-box;
     font-size: 18px;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;  
+    height: 100px;
+    line-height: 1;
 }
   
 .how-wrapper,
@@ -693,11 +701,10 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.how-what-facts-wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-wrap: wrap;
+    justify-content: space-around;
     margin: 22px;
     text-align: center;
-    line-height: 1;
-}`, "",{"version":3,"sources":["webpack://./src/css/how-what-facts.css"],"names":[],"mappings":"AAAA;IACI,YAAY;IACZ,aAAa;IACb,aAAa;IACb,4BAA4B;AAChC;;AAEA;IACI,aAAa;IACb,YAAY;IACZ,2CAA2C;IAC3C,kBAAkB;IAClB,qBAAqB;IACrB,gBAAgB;IAChB;MACE,YAAY;MACZ,WAAW;IACb;AACJ;;AAEA;;;;IAII,6BAA6B;AACjC;;AAEA;;;IAGI,eAAe;AACnB;;AAEA;;;IAGI,aAAa;IACb,sBAAsB;IACtB,mBAAmB;IACnB,eAAe;IACf,YAAY;IACZ,kBAAkB;IAClB,cAAc;AAClB","sourcesContent":[".how-what-facts-wrapper {\n    width: 100vw;\n    height: 485px;\n    display: flex;\n    justify-content:space-around;\n}\n  \n.dog-circle-small {\n    height: 180px;\n    width: 180px;\n    border: 2px solid var(--main-accent-color) ;\n    border-radius: 50%;\n    display: inline-block;\n    overflow: hidden;\n    img {\n      height: 100%;\n      width: 100%;\n    }\n}\n\n.sub-header,\n.what-info,\n.how-info,\n.facts-info {\n    font-family: var(--main-font);\n}\n  \n.what-info,\n.how-info,\n.facts-info {\n    font-size: 18px;\n}\n  \n.how-wrapper,\n.what-wrapper,\n.facts-wrapper {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    text-wrap: wrap;\n    margin: 22px;\n    text-align: center;\n    line-height: 1;\n}"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/css/how-what-facts.css"],"names":[],"mappings":"AAAA;IACI,YAAY;IACZ,aAAa;IACb,aAAa;IACb,4BAA4B;AAChC;;AAEA;IACI,aAAa;IACb,YAAY;IACZ,2CAA2C;IAC3C,kBAAkB;IAClB,qBAAqB;IACrB,gBAAgB;IAChB;MACE,YAAY;MACZ,WAAW;IACb;AACJ;;AAEA;;;;IAII,6BAA6B;AACjC;;AAEA;;;IAGI,oBAAoB;IACpB,eAAe;IACf,qBAAqB;IACrB,4BAA4B;IAC5B,aAAa;IACb,cAAc;AAClB;;AAEA;;;IAGI,aAAa;IACb,sBAAsB;IACtB,mBAAmB;IACnB,6BAA6B;IAC7B,YAAY;IACZ,kBAAkB;AACtB","sourcesContent":[".how-what-facts-wrapper {\n    width: 100vw;\n    height: 485px;\n    display: flex;\n    justify-content:space-around;\n}\n  \n.dog-circle-small {\n    height: 180px;\n    width: 180px;\n    border: 2px solid var(--main-accent-color) ;\n    border-radius: 50%;\n    display: inline-block;\n    overflow: hidden;\n    img {\n      height: 100%;\n      width: 100%;\n    }\n}\n\n.sub-header,\n.what-info,\n.how-info,\n.facts-info {\n    font-family: var(--main-font);\n}\n  \n.what-info,\n.how-info,\n.facts-info {\n    display: -webkit-box;\n    font-size: 18px;\n    -webkit-line-clamp: 6;\n    -webkit-box-orient: vertical;  \n    height: 100px;\n    line-height: 1;\n}\n  \n.how-wrapper,\n.what-wrapper,\n.facts-wrapper {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: space-around;\n    margin: 22px;\n    text-align: center;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
