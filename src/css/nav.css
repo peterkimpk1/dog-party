@@ -19,12 +19,12 @@ nav {
     flex-direction: row;
     justify-content: space-evenly;
     text-align: center;
-    width: 15vw;
+    width: 10vw;
     height: 50px;
     .nav-link {
         align-self: center;
         font-family: var (--main-font);
         color: white;
-        font-size: 20px;
+        font-size: 22px;
     }
 }
