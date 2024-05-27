@@ -516,11 +516,11 @@ ___CSS_LOADER_EXPORT___.push([module.id, `nav {
     height: 50px;
     .nav-link {
         align-self: center;
-        font-family: var (--main-font);
+        font-family: var(--main-font);
         color: white;
         font-size: 22px;
     }
-}`, "",{"version":3,"sources":["webpack://./src/css/nav.css"],"names":[],"mappings":"AAAA;IACI,eAAe;IACf,+CAA+C;IAC/C,YAAY;IACZ,SAAS;IACT,UAAU;IACV,aAAa;IACb,8BAA8B;AAClC;;AAEA;IACI,WAAW;IACX,kBAAkB;IAClB;AACJ;;AAEA;IACI,aAAa;IACb,mBAAmB;IACnB,6BAA6B;IAC7B,kBAAkB;IAClB,WAAW;IACX,YAAY;IACZ;QACI,kBAAkB;QAClB,8BAA8B;QAC9B,YAAY;QACZ,eAAe;IACnB;AACJ","sourcesContent":["nav {\n    display: inline;\n    background-color: var(--secondary-accent-color);\n    width: 100vw;\n    margin: 0;\n    padding: 0;\n    display: flex;\n    justify-content: space-between;\n}\n\n.dog-icon {\n    width: 40px;\n    position: relative;\n    transform: translate(30px)\n}\n\n.nav-links {\n    display: flex;\n    flex-direction: row;\n    justify-content: space-evenly;\n    text-align: center;\n    width: 10vw;\n    height: 50px;\n    .nav-link {\n        align-self: center;\n        font-family: var (--main-font);\n        color: white;\n        font-size: 22px;\n    }\n}"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/css/nav.css"],"names":[],"mappings":"AAAA;IACI,eAAe;IACf,+CAA+C;IAC/C,YAAY;IACZ,SAAS;IACT,UAAU;IACV,aAAa;IACb,8BAA8B;AAClC;;AAEA;IACI,WAAW;IACX,kBAAkB;IAClB;AACJ;;AAEA;IACI,aAAa;IACb,mBAAmB;IACnB,6BAA6B;IAC7B,kBAAkB;IAClB,WAAW;IACX,YAAY;IACZ;QACI,kBAAkB;QAClB,6BAA6B;QAC7B,YAAY;QACZ,eAAe;IACnB;AACJ","sourcesContent":["nav {\n    display: inline;\n    background-color: var(--secondary-accent-color);\n    width: 100vw;\n    margin: 0;\n    padding: 0;\n    display: flex;\n    justify-content: space-between;\n}\n\n.dog-icon {\n    width: 40px;\n    position: relative;\n    transform: translate(30px)\n}\n\n.nav-links {\n    display: flex;\n    flex-direction: row;\n    justify-content: space-evenly;\n    text-align: center;\n    width: 10vw;\n    height: 50px;\n    .nav-link {\n        align-self: center;\n        font-family: var(--main-font);\n        color: white;\n        font-size: 22px;\n    }\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
