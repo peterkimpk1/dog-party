@@ -23,7 +23,7 @@ nav {
     height: 50px;
     .nav-link {
         align-self: center;
-        font-family: var (--main-font);
+        font-family: var(--main-font);
         color: white;
         font-size: 22px;
     }
